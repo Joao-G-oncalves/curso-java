@@ -1,5 +1,6 @@
-public class MinhaClasse {
+package edu.joao.segundasemana;
 
+public class MinhaClasse {
 
     public static void main(String[] args){
         String primeiroNome = "João";
