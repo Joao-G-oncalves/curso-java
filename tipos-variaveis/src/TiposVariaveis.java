@@ -1,5 +1,13 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        double salarioMinimo = 2500;
+        short numeroCurto = 1;
+        int numeroNormal = 3500;
+        float pi = 3.14f; // float termina com F
+        long numeroLongo = 34168416846L; // long termina com L
+
+        final double VALOR_DE_PI = 3.14; // constante
+
+
     }
 }
