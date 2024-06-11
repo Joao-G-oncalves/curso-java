@@ -24,11 +24,23 @@ public class Operadores {
 
         //System.out.println(numero);
 
-        boolean variavel = true; 
+        //boolean variavel = true; 
 
-        variavel = !variavel;//inverter variável do tipo boolean mexendo na memoria
+        //variavel = !variavel;//inverter variável do tipo boolean mexendo na memoria
 
-        System.out.println(!variavel); //inverter variável do tipo boolean sem mexer na variavel
+        //System.out.println(!variavel); //inverter variável do tipo boolean sem mexer na variavel
+        int a, b;
+        a = 6;
+        b = 6;
+
+        String resultado = a==b ? "verdadeiro" : "falso"; //operador ternário
+        // if (a==b)
+        //     resultado = "Verdadeiro";
+        // else
+        //     resultado = "Falso";
+
+        System.out.println(resultado);
+
 
     }
 }
