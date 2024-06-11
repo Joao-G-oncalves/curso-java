@@ -4,7 +4,7 @@ public class Operadores {
         // String nomeCompleto = "LINGUAGEM" + "JAVA";
         // System.out.println(nomeCompleto);
 
-        int numero = 5;
+        //int numero = 5;
 
         // System.out.println(-numero);
 
@@ -16,13 +16,19 @@ public class Operadores {
 
         // numero = numero * -1; // Outra maneira de transformar negativo em positivo.
         
-        numero += 7; // incrementar uma variável criada
+        //numero += 7; // incrementar uma variável criada
 
-        numero++; // incrementar 1 
+        //numero++; // incrementar 1 
 
-        System.out.println(numero);
+        //numero--; // decrementar 1 
 
+        //System.out.println(numero);
 
+        boolean variavel = true; 
+
+        variavel = !variavel;//inverter variável do tipo boolean mexendo na memoria
+
+        System.out.println(!variavel); //inverter variável do tipo boolean sem mexer na variavel
 
     }
 }
