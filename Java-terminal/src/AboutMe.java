@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class AboutMe {
     public static void main(String[] args) throws Exception {
         //Criando o objeto scanner
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite seu nome: ");
