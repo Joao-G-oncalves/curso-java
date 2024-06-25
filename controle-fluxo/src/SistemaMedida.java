@@ -1,7 +1,13 @@
+import java.util.Scanner;
+import java.util.Locale;
+
 public class SistemaMedida {
     public static void main(String[] args) {
-        String sigla = "x";
-        switch (sigla) {
+        @SuppressWarnings("resource")
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        System.out.println("Digite a Sigla: ");
+        String sigla = scanner.next();
+        switch (sigla.toUpperCase()) {
             case "P":{
                 System.out.println("PEQUENO");
                 break;
