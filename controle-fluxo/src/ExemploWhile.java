@@ -9,12 +9,13 @@ public class ExemploWhile {
             }
             System.out.println("Doce do valor " + valorDoce + "Adicionado no carrinho");
             mesada -= valorDoce;
+            System.out.println("Voce ainda tem: R$" + mesada);
         }
         System.out.println("Mesada: " + mesada);
         System.out.println("Joaozinho gastou toda a sua mesada em doces!");
     }
     public static double valorAleatorio(){
-        return ThreadLocalRandom.current().nextDouble(2, 8);
+        return ThreadLocalRandom.current().nextDouble(2, 20);
     }
 
 }
