@@ -1,3 +1,8 @@
+import apps.FacebookMessenger;
+import apps.MSNMessenger;
+import apps.ServicoMensagemInstantanea;
+import apps.Telegram;
+
 public class ComputadorPedrinho {
 	public static void main(String[] args) {
 		
